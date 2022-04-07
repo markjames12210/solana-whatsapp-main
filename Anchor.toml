@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+clone_whatsapp = "EyBM7dvbM3rA5gR69mYSBYPfm7Bv6XRy2ykgQPTH5asW"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/jaylee/.config/solana/devnet.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
