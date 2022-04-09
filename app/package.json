@@ -12,6 +12,7 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
+    "@vue/cli-service":"5.0.4",
     "@project-serum/anchor": "^0.22.1",
     "@quasar/extras": "^1.0.0",
     "@solana/wallet-adapter-wallets": "^0.15.5",
